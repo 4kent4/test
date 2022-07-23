@@ -11,6 +11,7 @@ body {
 }
 
 .container{
+  background-color:silver;
   margin: 30px auto;
   max-width: 600px;
   min-width: 600px;
@@ -19,5 +20,45 @@ body {
   padding: 5px;
   overflow: auto;
   border: 1px solid steelblue;
-  border-radius: 5%;
+  border-radius: 20px;
+}
+
+.header-container{
+  background-color: antiquewhite;
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 5px 5px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.header-container h1{
+  font-weight: bold;
+
+}
+.container-container{
+  background-color: azure;
+  border-radius: 20px;
+  padding: 1px 6px;
+  text-align: center;
+}
+.btn-container{
+  background-color: azure;
+  border-radius: 20px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+ height: 25px;
+ width: 30px;
+ border-radius: 5px;
+border: none;
+display: inline-block;
+}
+
+.btn:active{
+  box-shadow: 2px 2px 5px #bf6839;
 }
